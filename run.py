@@ -5,6 +5,7 @@ import sys
 from mattermost_giphy.app import app
 from mattermost_giphy.settings import *
 
+import config
 
 if __name__ == "__main__":
     if not GIPHY_API_KEY:
