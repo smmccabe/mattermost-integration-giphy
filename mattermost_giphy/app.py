@@ -12,7 +12,7 @@ from flask import request
 from flask import Response
 
 from mattermost_giphy.settings import *
-
+from config import *
 
 logging.basicConfig(
     level=logging.INFO, format='[%(asctime)s] [%(levelname)s] %(message)s')
